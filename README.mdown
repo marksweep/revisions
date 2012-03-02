@@ -1,0 +1,33 @@
+Revisions
+=========
+
+Revisions is a plugin for the CakePHP-based Croogo CMS. It tracks any changes to nodes and allows you to edit / tag / create and push old revisions to a node.
+
+Installation
+------------
+
+Copy the revisions directory into your app/plugins directory.
+
+Activate revisions using the Croogo Plug-ins admin section.
+
+*OPTIONAL* Because of the way themed views work you will need to create a symbolic link linking any node type overrides you create in your themes in order to properly previous page nodes in the proper views.
+
+For example if you have a folder called app/views/themed/mytheme/nodes which contains a custom view_page.ctp in order to preview revisions you must create a symlink folder from revisions to nodes.
+
+	cd app/views/themed/mytheme
+	ln -s nodes revisions
+
+
+### Features ###
+
+* Any node changes that alter title, excerpt or body generates a revision.
+* A new tab appears for node editing called "Revisions"
+* The revisions tab lists all previous revisions to the node.
+* You can create revisions without modifying your existing node in the revisions tab.
+* You can preview revisions by clicking on the title of the revision in the revisions tab. This will allow you to toggle between current node contents and your revision.
+* You can tag revisions with a custom Tag for identification
+
+### To Do ###
+
+* Unit tests are broken. Need to find out why.
+* Allow pushing tagged revisions en mass (one button pushing of all revision tagged "NEWSITE" for example
