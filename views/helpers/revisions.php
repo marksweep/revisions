@@ -5,11 +5,11 @@
  * An Revisions hook helper for demonstrating hook system.
  *
  * @category Helper
- * @package  Croogo
+ * @package  Revisions
  * @version  1.0
- * @author   Fahad Ibnay Heylaal <contact@fahad19.com>
+ * @author   David Wu <david@marksweep.com>
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
- * @link     http://www.croogo.org
+ * @link     http://github.com/marksweep/revisions
  */
 class RevisionsHelper extends AppHelper {
 /**

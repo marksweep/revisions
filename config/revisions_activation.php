@@ -8,7 +8,7 @@
  * @package  Revisions
  * @author   David Wu <david@marksweep.com>
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
- * @link     http://www.croogo.org
+ * @link     http://github.com/marksweep/revisions
  * @copyright IPRO 2012
  */
 class RevisionsActivation {
