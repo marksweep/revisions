@@ -1,0 +1,46 @@
+.is-current {
+	background: #FFF68F;
+}
+
+#node-revisions td a {
+	color: #21759B;
+}
+
+#node-revisions td a:hover {
+	color: #D54E21;
+	text-decoration: underline;
+}
+
+#RevisionMessage {
+	background: #FFF68F;
+	text-align: center;
+	padding: 5px;
+}
+
+#RevisionMessage.original {
+	background: #E6EFC2;
+}
+
+/* By default we turn off the original content */
+.originalnode {
+	display: none;
+}
+
+
+/* Toggle link */
+.toggle-revision a, .push-revision a {
+	float: left;
+	text-indent: 20px;
+	background: url(/revisions/img/icons/bullet_arrow_down.png) top left no-repeat;
+	width: auto;
+	font-size: .6em;
+	height: 16px;
+	clear: both;
+	padding-top: 2px;
+}
+.push-revision a {
+	float: right;
+	text-indent: 0px;
+	background: none;
+	clear: right;
+}

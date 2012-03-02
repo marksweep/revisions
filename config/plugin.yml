@@ -1,0 +1,11 @@
+name: Revisions
+description: Revisions plugin for demonstrating hook system
+
+author: Author Name
+authorEmail: author@Revisions.com
+authorUrl: http://Revisions.com
+
+dependencies:
+  plugins:
+    - acl
+    - extensions
