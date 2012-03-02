@@ -25,9 +25,11 @@ For example if you have a folder called app/views/themed/mytheme/nodes which con
 * The revisions tab lists all previous revisions to the node.
 * You can create revisions without modifying your existing node in the revisions tab.
 * You can preview revisions by clicking on the title of the revision in the revisions tab. This will allow you to toggle between current node contents and your revision.
+* You can "push" any non-current revision to the node using the "push" link on each revision. This will make that revision replace the contents of the current node (and save a revision for the current node if applicable).
 * You can tag revisions with a custom Tag for identification
 
 ### To Do ###
 
 * Unit tests are broken. Need to find out why.
 * Allow pushing tagged revisions en mass (one button pushing of all revision tagged "NEWSITE" for example
+* Currently you can only preview nodes as pages. Need to think of a good way to preview things like blogroll/ homepage with a given revision tag.
