@@ -65,8 +65,6 @@ class Revision extends RevisionsAppModel {
 			} else {
 				$data = $node;
 				$data['md5']		= $this->hashData($node);
-				
-				debug($data);
 			}
 		
 		
