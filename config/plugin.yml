@@ -1,9 +1,9 @@
 name: Revisions
-description: Revisions plugin for demonstrating hook system
+description: Revisions is a plugin for the CakePHP-based Croogo CMS. It tracks any changes to nodes and allows you to edit / tag / create and push old revisions to a node.
 
-author: Author Name
-authorEmail: author@Revisions.com
-authorUrl: http://Revisions.com
+author: Mark Sweep
+authorEmail: 
+authorUrl: https://github.com/marksweep
 
 dependencies:
   plugins:
